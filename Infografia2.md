@@ -1,2 +1,2 @@
-La infografía escogida
+La infografía escogida pertenece a la web de ... 
 
