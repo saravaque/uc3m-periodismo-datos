@@ -1,0 +1,2 @@
+La infografía escogida
+
