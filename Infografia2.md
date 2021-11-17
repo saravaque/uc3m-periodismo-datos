@@ -1,5 +1,6 @@
 # Comentario Infografía 2
-https://elordenmundial.com/mapas-y-graficos/retorno-voluntario-migrantes/
+Este análisis se ha realizado en base a la infografía publicada en El Orden Mundial, recuperado del siguiente enlace:  https://elordenmundial.com/mapas-y-graficos/retorno-voluntario-migrantes/
+<img src="img/retorno-migrantes.png-2.webp">
 La infografía escogida ha sido extraída de la página web de El Orden Mundial. La fuente es la *Organización Internacional para las Migraciones, 2020*
 En esta imagen se habla del retorno voluntario de migrantes, es de tipo social y demográfica. El formato es estático (no hace ningún tipo de movimiento ni nada por el estilo.
 Es una infografía dividida en 4 secciones en la que la primera sirve como base para el resto de la infografía:
