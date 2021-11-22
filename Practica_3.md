@@ -4,6 +4,7 @@
 <img src="img/grafico_tendencias_veraniegas.png">
 
 Este gráfico se ha construido utilizando [Datawrapper](https://www.datawrapper.de)
+
 En el presente gráfico se recogen las tendencias más influyentes en Twitter durante las siguientes fechas:
 + **03/06/2020 - 31/07/2020** 
 
