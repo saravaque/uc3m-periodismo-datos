@@ -6,6 +6,7 @@
 Este gráfico se ha construido utilizando [Datawrapper](https://www.datawrapper.de)
 En el presente gráfico se recogen las tendencias más influyentes en Twitter durante las siguientes fechas:
 + **03/06/2020 - 31/07/2020** 
+
 Se ha utilizado este rango de tiempo puesto que coincide con los días en los que los usuarios de Twitter publicaron mayor número de tweets. Precisamente esta fecha coincide con la **desescalada del confinamiento de 2020**. Lo que muestran estos datos es que parece que al comenzar la "nueva normalidad", los internautas comenzaron a publicar más tweets. Lo que se pretendía con esta elección de datos es observar cuáles fueron las tendencias en RRSS de ese momento de desescalada para los usuarios. 
 
 ## El proceso de creación 
