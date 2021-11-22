@@ -1,0 +1,1 @@
+<iframe title="Tendencias veraniegas" aria-label="Gráfico de columnas" id="datawrapper-chart-MeW75" src="https://datawrapper.dwcdn.net/MeW75/1/" scrolling="no" frameborder="0" style="border: none;" width="667" height="493"></iframe>
