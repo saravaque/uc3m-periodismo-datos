@@ -1,4 +1,4 @@
-# Práctica 3: Gráfico con Datawrapper
+# Felices días veraniegos
 ## Gráfico realizado
 
 <img src="img/grafico_tendencias_veraniegas.png">
