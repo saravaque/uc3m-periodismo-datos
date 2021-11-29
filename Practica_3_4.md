@@ -3,7 +3,7 @@ A continuación se exponen de manera gráfica los datos relativos a las tendenci
 
 ## Gráfico realizado
 
-<img src="img/grafico_tendencias_veraniegas.png">
+<img src="img/veraniego.png">
 
 Este gráfico se ha construido utilizando [Datawrapper](https://www.datawrapper.de)
 
