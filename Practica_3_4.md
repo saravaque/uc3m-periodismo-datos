@@ -26,7 +26,15 @@ La tendencia más "felicitada" es la de los martes. Esto puede ser llamativo en 
 
 Así pues es interesante observar, y que cada lector saque sus propias conclusiones también, cómo quedaría representado el porcentaje de felicitaciones exclusivamente de los días de la semana:
 
+<img src="img/semana.png">
 
+En este gráfico se representa la evolución de la cantidad de tweets relativos a los días de cada semana. Se ha hecho del total de tweets publicados, sin fechas encorchetadas. 
+
+<img src="img/dias.png"> 
+
+Por otro lado, en este gráfico se puede comparar el número de tweets en total bajo los hashtag de los días de la semana entre las fechas antes señaladas. 
+
+Así pues se observa una diferencia y es que el miércoles (en general) tenía mayor tendencia, pero que durante estos dos meses el protagonista fue el martes.
 
 
 ## El proceso de creación 
@@ -55,6 +63,6 @@ El color empleado se ha escogido en consonancia con los datos que se estaban pro
 
 ##### Gráficos Complementarios
 
-Recuperando el archivo final de Excel se han tomado los hashtag relativos a los días de la semana exclusivamente y se ha hecho un sumatorio de los tweets totales de días de la semana. En primer lugar se ha comparado con el resto de tweets y posteriormente se ha visto la comparación entre los diferentes días y cuál se felicita más. 
+Recuperando el archivo final de Excel se han tomado los hashtag relativos a los días de la semana exclusivamente y se ha hecho un sumatorio de los tweets totales de días de la semana. En primer lugar se ha comparado con el resto de tweets y posteriormente se ha visto la comparación entre los diferentes días y cuál se felicita más. Se ha utilizado el donut chart para representar las partes (días de la semana) de un total (tweets relativos a felicitaciones diarias). De esta forma se puede observar que porción ocupa cada día de la semana. Para la evolución de los tweets a lo largo de una semana se ha tomado el gráfico de líneas, que va mostrando una progresión más visible (aunque en este caso habría que atender a que no es algo 100% estático sino que muchos factores entran en juego, pero sí se mantiene una tendencia determinada). 
 
 :+1:
