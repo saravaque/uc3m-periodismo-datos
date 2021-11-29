@@ -1,4 +1,6 @@
 # Felices días veraniegos
+A continuación se exponen de manera gráfica los datos relativos a las tendencias más influyentes en Twitter. Han sido recuperadas a través de un tratamiento de datos utilizando diferentes herramientas que a continuación serán explicadas. 
+
 ## Gráfico realizado
 
 <img src="img/grafico_tendencias_veraniegas.png">
