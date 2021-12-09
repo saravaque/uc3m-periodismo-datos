@@ -143,11 +143,11 @@
   </div>
 
   <div class="container">
-  <img class="img-fluid" src="img/veraniego.png">
+  <img class="img-fluid my-3" src="img/veraniego.png">
 
   <p>Este gráfico se ha construido utilizando <a href="https://www.datawrapper.de">Datawrapper</a></p>
 
-  En el presente gráfico se recogen las tendencias más influyentes en Twitter durante las siguientes fechas:
+  <p>En el presente gráfico se recogen las tendencias más influyentes en Twitter durante las siguientes fechas:
   + **03/06/2020 - 31/07/2020**
 
   Se ha utilizado este rango de tiempo puesto que coincide con los días en los que los usuarios de Twitter publicaron
@@ -188,25 +188,25 @@
   usuarios.
 
   Así pues es interesante observar, y que cada lector saque sus propias conclusiones también, cómo quedaría representado
-  el porcentaje de felicitaciones exclusivamente de los días de la semana:
+  el porcentaje de felicitaciones exclusivamente de los días de la semana: </p> 
 
-  <img src="img/semana.png">
+  <img class="my-3" src="img/semana.png">
 
-  En este gráfico se representa la evolución de la cantidad de tweets relativos a los días de cada semana. Se ha hecho
-  del total de tweets publicados, sin fechas encorchetadas.
+  <p> En este gráfico se representa la evolución de la cantidad de tweets relativos a los días de cada semana. Se ha hecho
+  del total de tweets publicados, sin fechas encorchetadas.</p>
 
-  <img src="img/dias.png">
+  <img class="my-3" src="img/dias.png">
 
-  Por otro lado, en este gráfico se puede comparar el número de tweets en total bajo los hashtag de los días de la
+  <p> Por otro lado, en este gráfico se puede comparar el número de tweets en total bajo los hashtag de los días de la
   semana entre las fechas antes señaladas.
 
   Así pues se observa una diferencia y es que el miércoles (en general) tenía mayor tendencia, pero que durante estos
-  dos meses el protagonista fue el martes.
+  dos meses el protagonista fue el martes.</p>
 
 
-  ## El proceso de creación
+  <h1> ## El proceso de creación </h1>
 
-  ##### OpenRefine
+  <p> ##### OpenRefine
   Esta herramienta se ha utilizado para poder limpiar y analizar el primer fichero **Feliz.csv** que contenía los datos
   que se han tomado para realizar el presente gráfico. En primer lugar se ha abierto el proyecto y se le ha dado a cada
   columna el valor que le correspondía (fecha, texto, número).
@@ -214,52 +214,52 @@
   fechas se ha creado una herramienta de filtro timeline. El primer paso ha sido eliminar los datos anteriores a 2020.
   De esta forma ya se ha delimitado por fechas el rango que se pretendía tratar. No obstante, no era suficiente, y se ha
   seguido limitando hasta llegar a esos datos relativos a los meses de mayor tráfico de tweets, tal como se observa en
-  la siguiente imagen:
-  <img src="img/Imagen1.png">
+  la siguiente imagen:</p>
+  <img class="my-3" src="img/Imagen1.png">
 
-  Después se ha creado otro cuadro para filtrar por texto (desde la columna que recogía los hashtag y nombres de
+  <p> Después se ha creado otro cuadro para filtrar por texto (desde la columna que recogía los hashtag y nombres de
   tendencias). Se ha hecho **cluster** para unir aquellas tendencias que, aunque escritas de forma distinta, resultasen
-  lo mismo.
-  <img src="img/Imagen2.png">
+  lo mismo.</p>
+  <img class="my-3" src="img/Imagen2.png">
 
   No obstante, en este fichero, algunas de las tendencias no reflejaban el número de tweets publicados. Para eliminar
   aquellos que no contenían la información necesaria se ha filtrado la columna de número:
   **Número > Facet > Customized Facets > Facet by Null > Delete True**
 
-  Ya se tenían todos los hashtag y tendencias correspondientes a esas fechas, con el número de tweets publicados
+  <p> Ya se tenían todos los hashtag y tendencias correspondientes a esas fechas, con el número de tweets publicados
   correspondientes. Sin embargo, las tendencias se repetían, puesto que cada una estaba ligada a un día concreto. Es
   decir, había varios #FelizMiércoles, por cada semana incluida en ese rango de fechas. En este análisis no se necesita
   saber cuántos Feliz Miércoles hubo, sino que interesa saber el total de veces que se felicitó un miércoles en el rango
-  antes indicado. Por ello se ha descargado el archivo en formato excel (.xls)
+  antes indicado. Por ello se ha descargado el archivo en formato excel (.xls)</p>
 
-  ##### Excel
-  <img class="img-fluid" src="img/Imagen3.png">
+  <h1> ##### Excel </h1>
+  <img class="img-fluid my-3" src="img/Imagen3.png">
 
-  Tras esto se ha hecho SUMAR.SI para sumar todos aquellos tweets que compartían la misma tendencia pero no la misma
-  fecha. Con las cantidades resultantes se ha creado un nuevo archivo CSV.
+  <p> Tras esto se ha hecho SUMAR.SI para sumar todos aquellos tweets que compartían la misma tendencia pero no la misma
+  fecha. Con las cantidades resultantes se ha creado un nuevo archivo CSV. </p>
 
-  ##### Datawrapper
-  Con este nuevo archivo CSV se ha creado directamente el gráfico en Datawrapper. El gráfico elegido ha sido el de
+  <h1>##### Datawrapper </h1>
+  <p> Con este nuevo archivo CSV se ha creado directamente el gráfico en Datawrapper. El gráfico elegido ha sido el de
   barras para poder mostrar con claridad la diferencia entre las cantidades de tweets de cada tendencia. Este tipo de
   representaciones atiende muy bien a aquellos datos referidos a patrones o tendencias. Además se ha ordenado de mayor a
   menor influencia las tendencias para que se observe mejor la posición de cada una de ellas.
   El color empleado se ha escogido en consonancia con los datos que se estaban proporcionando. El contenido tiene que
   ver con meses referidos al verano, o cercanos a él. De tal forma que se ha apostado por un amarillo/naranja suave que
-  recuerda a la calidez del verano.
+  recuerda a la calidez del verano.</p>
 
-  ##### Gráficos Complementarios
+  <h1> ##### Gráficos Complementarios</h1>
 
-  Recuperando el archivo final de Excel se han tomado los hashtag relativos a los días de la semana exclusivamente y se
+  <p>Recuperando el archivo final de Excel se han tomado los hashtag relativos a los días de la semana exclusivamente y se
   ha hecho un sumatorio de los tweets totales de días de la semana. En primer lugar se ha comparado con el resto de
   tweets y posteriormente se ha visto la comparación entre los diferentes días y cuál se felicita más. Se ha utilizado
   el donut chart para representar las partes (días de la semana) de un total (tweets relativos a felicitaciones
   diarias). De esta forma se puede observar que porción ocupa cada día de la semana. Para la evolución de los tweets a
   lo largo de una semana se ha tomado el gráfico de líneas, que va mostrando una progresión más visible (aunque en este
   caso habría que atender a que no es algo 100% estático sino que muchos factores entran en juego, pero sí se mantiene
-  una tendencia determinada).
+  una tendencia determinada).</p> 
 
   :+1:
-
+  
   <main class="flex-shrink-0">
     <div class="container">
       <h1 class="mt-5">Sticky footer with fixed navbar</h1>
