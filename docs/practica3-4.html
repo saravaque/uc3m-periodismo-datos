@@ -6,14 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Práctica3/4</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
 </head>
 
 <header>
@@ -28,16 +22,16 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="práctica1.html">Práctica 1</a>
+                        <a class="nav-link active" aria-current="page" href="practica1.html">Práctica 1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="práctica2.html">Práctica 2</a>
+                        <a class="nav-link" href="practica2.html">Práctica 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="práctica3-4.html">Práctica 3/4</a>
+                        <a class="nav-link" href="practica3-4.html">Práctica 3/4</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="metodología.html">Metodología</a>
+                        <a class="nav-link" href="metodologia.html">Metodología</a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -60,7 +54,7 @@
 
             Gráfico 1 realizado</p>
 
-        <img class="img-fluid my-3" src="img/veraniego.png">
+            <iframe title="Tendencias veraniegas" aria-label="Gráfico de columnas" id="datawrapper-chart-MeW75" src="https://datawrapper.dwcdn.net/MeW75/2/" scrolling="no" frameborder="0" style="border: none;" width="667" height="493"></iframe>
 
         <p>Este gráfico se ha construido utilizando <a href="https://www.datawrapper.de">Datawrapper</a></p>
 
@@ -152,14 +146,14 @@
             representado
             el porcentaje de felicitaciones exclusivamente de los días de la semana: </p>
 
-        <img class="my-3" src="img/semana.png">
+            <iframe title="Días de la semana felicitados" aria-label="Interactive line chart" id="datawrapper-chart-L0v7q" src="https://datawrapper.dwcdn.net/L0v7q/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="307"></iframe>
 
         <p> En este gráfico se representa la evolución de la cantidad de tweets relativos a los días de cada semana. Se
             ha
             hecho
             del total de tweets publicados, sin fechas encorchetadas.</p>
 
-        <img class="my-3" src="img/dias.png">
+            <iframe title="Días semana fechas destacadas" aria-label="Gráfico de anillo" id="datawrapper-chart-ot4kH" src="https://datawrapper.dwcdn.net/ot4kH/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="564"></iframe>
 
         <p> Por otro lado, en este gráfico se puede comparar el número de tweets en total bajo los hashtag de los días
             de la
@@ -192,14 +186,14 @@
             seguido limitando hasta llegar a esos datos relativos a los meses de mayor tráfico de tweets, tal como se
             observa en
             la siguiente imagen:</p>
-        <img class="my-3" src="img/Imagen1.png">
+        <img class="my-3" src="img/Imagen1.png" alt="Imagen">
 
         <p> Después se ha creado otro cuadro para filtrar por texto (desde la columna que recogía los hashtag y nombres
             de
             tendencias). Se ha hecho **cluster** para unir aquellas tendencias que, aunque escritas de forma distinta,
             resultasen
             lo mismo.</p>
-        <img class="my-3" src="img/Imagen2.png">
+        <img class="my-3" src="img/Imagen2.png" alt="Imagen">
 
         No obstante, en este fichero, algunas de las tendencias no reflejaban el número de tweets publicados. Para
         eliminar
@@ -219,7 +213,7 @@
             antes indicado. Por ello se ha descargado el archivo en formato excel (.xls)</p>
 
         <h1> Excel </h1>
-        <img class="img-fluid my-3" src="img/Imagen3.png">
+        <img class="img-fluid my-3" src="img/Imagen3.png" alt="Imagen">
 
         <p> Tras esto se ha hecho SUMAR.SI para sumar todos aquellos tweets que compartían la misma tendencia pero no la
             misma
@@ -264,6 +258,11 @@
             una tendencia determinada).</p>
     </div>
     </div>
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+          <span class="text-muted">UNIVERSIDAD CARLOS III DE MADRID.</span>
+        </div>
+      </footer>
 </body>
 
 </html>
